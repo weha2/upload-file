@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: upload-file
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 5MB
+
+springdoc:
+  api-docs.path: /v3/api-docs
+  swagger-ui.path: /swagger-ui.html
+  swagger-ui.operationsSorter: alpha
+  swagger-ui.tagsSorter: alpha
+  swagger-ui.filter: true
+  swagger-ui.display-tag-groups: true

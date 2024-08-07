@@ -18,7 +18,7 @@ public class UploadFileApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        uploadFileService.deleteAll();
+        //uploadFileService.deleteAll();
         uploadFileService.init();
     }
 }
